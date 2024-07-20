@@ -9,7 +9,7 @@ body, html {
   height: 100%;
   background-color: black;
   
-  background: url("/background-images/trailer.webp") no-repeat center fixed;;
+  background: url("../background-images/trailer.webp") no-repeat center fixed;;
   background-size: cover;
 
   position: relative;
