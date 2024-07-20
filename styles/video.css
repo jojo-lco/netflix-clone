@@ -1,0 +1,21 @@
+.next-watch-container {
+  position: absolute;
+  top: 500px;
+  left: 50px;
+
+  color: white;
+  margin-top: 50px;
+  font-size: 20px;
+
+  width: 1350px;
+}
+
+.video-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+
+  overflow: auto;
+  white-space: nowrap;
+  width: 100%;
+}

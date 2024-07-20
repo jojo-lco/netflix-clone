@@ -1,0 +1,71 @@
+.background-trailer {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+
+  color: rgba(255, 255, 255, 0.9);
+
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+}
+
+.trailer-title {
+  height: 200px;
+}
+
+.new-episodes {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.play-trailer-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.play-button, .more-info-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.play-button:hover, .more-info-button:hover {
+  opacity: 0.7;
+}
+
+.play-button {
+  height: 40px;
+  width: 100px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 4px;
+  border: none;
+  margin-right: 8px;
+}
+
+.play-icon {
+  height: 20px;
+  margin-right: 6px;
+}
+
+.more-info-button {
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgba(138, 138, 138, 0.8);
+  color: white;
+  border-style: solid;
+  border-radius: 4px;
+  border: none;
+}
+
+.info-icon {
+  height: 20px;
+  margin-right: 8px;
+}

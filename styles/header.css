@@ -1,0 +1,52 @@
+.header {
+  background-color: transparent;
+  color: rgb(233, 231, 231);
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.left-section {
+  flex: 2;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  font-size: 12px;
+}
+
+.netflix-logo {
+  height: 20px;
+}
+
+.right-section {
+  flex: 1;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+.search-icon {
+  height: 20px;
+  margin-right: 25px;
+}
+
+.notification-icon {
+  height: 20px;
+  margin-right: 20px;
+}
+
+.profile-icon {
+  border-radius: 4px;
+  margin-right: 50px;
+}
